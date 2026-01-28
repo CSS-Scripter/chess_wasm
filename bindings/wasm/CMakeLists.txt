@@ -22,4 +22,5 @@ target_link_options(chess_wasm PRIVATE
   "-sENVIRONMENT=web"
   "--bind"
   "-sEXPORT_ES6=1"
+  "-sWASM_BIGINT=1"
 )

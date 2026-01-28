@@ -1,11 +1,13 @@
 <script setup lang="ts">
-import RookMoves from './components/RookMoves.vue';
+import BoardView from './views/BoardView.vue';
 
 </script>
 
 <template>
   <div>
-    <RookMoves></RookMoves>
+    <Suspense>
+      <BoardView></BoardView>
+    </Suspense>
   </div>
 </template>
 

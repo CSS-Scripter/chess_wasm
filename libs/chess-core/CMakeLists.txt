@@ -1,5 +1,6 @@
 add_library(chess_core
     src/chess.cpp
+    src/board.cpp
 )
 
 target_include_directories(chess_core
