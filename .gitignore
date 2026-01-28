@@ -12,6 +12,8 @@ cmake-build-*/
 compile_commands.json
 
 # Emscripten
+*.wasm
+*.js
 *.mem
 *.data
 
