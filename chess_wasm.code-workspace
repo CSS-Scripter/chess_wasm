@@ -1,0 +1,9 @@
+{
+	"folders": [
+		{ "name": "Project", "path": "./" },
+		{ "name": "Chess Core", "path": "./libs" },
+		{ "name": "Bindings", "path": "./bindings" },
+		{ "name": "Web", "path": "./apps/web" },
+	],
+	"settings": {}
+}
