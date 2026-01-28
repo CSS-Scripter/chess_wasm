@@ -21,4 +21,5 @@ target_link_options(chess_wasm PRIVATE
   "-sEXPORT_NAME=createChessModule"
   "-sENVIRONMENT=web"
   "--bind"
+  "-sEXPORT_ES6=1"
 )
