@@ -20,4 +20,6 @@ struct Board {
 };
 
 Board starting_board();
+uint64_t encode_row(char row);
+uint64_t encode_column(char column);
 std::string get_piece_name(const Board& board, std::string field);

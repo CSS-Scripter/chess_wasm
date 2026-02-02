@@ -1,6 +1,5 @@
 // bindings/wasm/bindings.cpp
 #include <emscripten/bind.h>
-#include "chess.h"
 #include "board.h"
 
 using namespace emscripten;
@@ -22,6 +21,7 @@ EMSCRIPTEN_BINDINGS(chess) {
 
 
     function("starting_board", &starting_board);
-    function("rook_moves", &rook_moves);
     function("get_piece_name", &get_piece_name);
+    function("encode_column", &encode_column);
+    function("encode_row", &encode_row);
 }
